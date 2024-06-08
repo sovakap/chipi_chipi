@@ -1,0 +1,62 @@
+
+body {
+    font-family: cursive;
+    background-color: rgb(207, 165, 102);
+    color: rgb(124, 89, 46);
+     font-size: 23px;
+     
+}
+
+h1 {
+   text-decoration: overline rgb(161, 120, 58);
+   opacity: 0 ; 
+    transition: all 0.6s linear ;
+}
+
+h1:hover {
+    opacity: 1;
+    transition: all 0.6s linear ;
+}
+
+
+li{
+    transition: all 0.8s linear ; 
+  
+    width: fit-content;
+}
+
+li:hover{
+    transform: scale(1.2);
+    transition: all 0.8s linear ;
+}
+
+img {
+    border-radius: 25px;
+    border: 20px solid rgb(153, 111, 60, 0.589);
+    opacity: 0.1;
+    width: 70%;
+    height: auto;
+    transition: all 0.8s linear ;
+   
+}
+
+
+img:hover {
+  opacity: 1;  
+  transition: all 0.5s linear;
+}
+
+header {
+    background-color: rgb(161, 120, 58);
+    font-size: 40px;
+
+}
+
+a {
+    color:  rgb(58, 37, 12);
+    text-decoration: none;
+}
+
+footer {
+    font-size: 15px;
+}
